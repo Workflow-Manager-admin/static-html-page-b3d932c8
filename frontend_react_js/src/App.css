@@ -93,6 +93,57 @@
   }
 }
 
+/* PDF-to-React Guide Content Styles */
+.pdf-content h1,
+.pdf-content h2, 
+.pdf-content h3 {
+  font-family: 'Montserrat', 'Segoe UI', Arial, sans-serif;
+  color: var(--text-primary);
+  font-weight: 800;
+  margin-top: 1.7em;
+  margin-bottom: 0.6em;
+  line-height: 1.2;
+}
+.pdf-content h1 { font-size: 2.4em; margin-top: 1em; }
+.pdf-content h2 { font-size: 2em; border-bottom:1px solid var(--border-color); padding-bottom:6px; }
+.pdf-content h3 { font-size: 1.4em; color: var(--text-secondary); }
+
+.pdf-content section {
+  margin-bottom: 2.8em;
+  padding-bottom: 1em;
+  border-bottom: 1px dashed var(--border-color);
+}
+
+.pdf-content ul, .pdf-content ol {
+  text-align: left;
+  margin: 0 0 1.2em 1.5em;
+  font-size: 1em;
+}
+
+.pdf-content ol li, .pdf-content ul li {
+  margin-bottom: 0.5em;
+}
+
+.pdf-content code {
+  font-family: 'Fira Mono', 'Consolas', monospace;
+  font-size: 1em;
+  background-color: #2d2d2d;
+  color: #fafafa;
+  border-radius: 6px;
+  padding: 8px 12px;
+  display: block;
+  white-space: pre-line;
+  margin-bottom: 1em;
+}
+
+.pdf-content b {
+  color: var(--text-secondary);
+  font-weight: 700;
+}
+.pdf-content {
+  line-height: 1.7;
+}
+
 /* Responsive design for mobile */
 @media (max-width: 768px) {
   .theme-toggle {
@@ -100,5 +151,9 @@
     right: 10px;
     padding: 8px 16px;
     font-size: 12px;
+  }
+  .pdf-content {
+    padding: 10px 2vw;
+    font-size: 16px;
   }
 }
