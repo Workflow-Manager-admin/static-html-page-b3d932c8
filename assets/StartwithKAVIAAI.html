@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Start with KAVIA AI – PDF Rendered Page</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    /* General Reset/Background */
+    body {
+      background: #F8F9FA;
+      color: #232323;
+      font-family: 'Segoe UI', 'Montserrat', Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      min-height: 100vh;
+    }
+    .pdf-container {
+      background: #fff;
+      max-width: 810px;
+      margin: 32px auto;
+      box-shadow: 0 6px 36px 0 rgba(60,80,110,0.08);
+      border-radius: 20px;
+      padding: 50px 48px 70px 48px;
+      position: relative;
+    }
+    header {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+    .pdf-title {
+      font-family: 'Montserrat', 'Segoe UI', Arial, sans-serif;
+      color: #E87A41;
+      font-weight: 800;
+      font-size: 2.5em;
+      margin-bottom: 3px;
+      letter-spacing: 0.02em;
+    }
+    .pdf-subtitle {
+      color: #232323;
+      font-size: 1.4em;
+      font-weight: 700;
+      margin-bottom: 32px;
+      margin-top: 6px;
+      letter-spacing: 0.01em;
+    }
+    section {
+      margin-bottom: 2.6em;
+      border-bottom: 1px dashed #eee;
+      padding-bottom: 0.8em;
+    }
+    h1, h2, h3 {
+      font-family: 'Montserrat', 'Segoe UI', Arial, sans-serif;
+      color: #1A1A1A;
+      line-height: 1.24;
+      margin-top: 35px;
+      margin-bottom: 12px;
+    }
+    h1 { font-size: 2em; font-weight:800;}
+    h2 { font-size: 1.4em; font-weight:700; border-bottom:1px solid #e9ecef; padding-bottom:4px;}
+    h3 { font-size: 1.1em; color: #E87A41; font-weight:600; margin-bottom:9px;}
+    p, ul, ol {
+      font-size: 1em;
+      margin-top: 0;
+      margin-bottom: 1.1em;
+      line-height: 1.7;
+      color: #222;
+    }
+    ul, ol {
+      margin-left: 1.6em;
+    }
+    li {
+      margin-bottom: 0.5em;
+    }
+    strong, b {
+      color: #E87A41;
+      font-weight: 700;
+    }
+    code {
+      background: #272822;
+      color: #fafafa;
+      border-radius: 7px;
+      font-size: 1em;
+      padding: 8px 11px;
+      font-family: 'Fira Mono', 'Consolas', monospace;
+      display: block;
+      margin-bottom: 0.8em;
+    }
+    .pdf-image {
+      max-width: 350px;
+      width: 100%;
+      height: auto;
+      display: block;
+      margin: 0 auto 1.7em auto;
+    }
+    @media (max-width: 900px) {
+      .pdf-container { padding: 40px 6vw; }
+    }
+    @media (max-width: 600px) {
+      .pdf-container { max-width:99vw; border-radius: 0; padding: 18px 2vw; }
+    }
+  </style>
+</head>
+<body>
+  <div class="pdf-container">
+    <header>
+      <div class="pdf-title">Start with <span style="color:#1976d2">KAVIA AI</span></div>
+      <div class="pdf-subtitle">Code Generation Guide</div>
+      <!-- If there is a logo or PDF cover image, insert here as <img class="pdf-image" src="..."/> -->
+    </header>
+    <ol>
+      <li>Create your first Web APP</li>
+      <li>Step 1: Start from the Home Screen</li>
+      <li>Step 2: Enter Your Prompt</li>
+      <li>Step 3: Confirm Project Overview and Core features.</li>
+      <li>Step 4: Let Kavia Prepare the Workspace</li>
+      <li>Step 5: Collaborate with Kavia via Chat</li>
+      <li>Step 6: Preview</li>
+      <li>Step 7: Enabling the Edit Mode</li>
+      <li>Step 8: Deployment</li>
+      <li>Step 9: Terminate</li>
+      <li>Ingest Existing Codebase</li>
+      <li>Notable Points</li>
+    </ol>
+
+    <section>
+      <h3>Sign into Kavia AI</h3>
+      <ul>
+        <li>Add your Referral Code → Sign into Kavia AI with a verifiable email id.</li>
+      </ul>
+      <b>Two Step Verification and Sign in</b>
+      <ol>
+        <li>Enable your access through set password link received via Welcome Mail</li>
+        <li>Login to the portal using the Login URL in the Welcome Mail</li>
+      </ol>
+    </section>
+
+    <section>
+      <h2>Create your first Web APP</h2>
+      <p>Let’s walk through the process of creating a simple website using Kavia. For this example, we'll build a basic web-based app.</p>
+
+      <h3>Step 1: Start from the Home Screen</h3>
+      <p>
+        Navigate to the Home section from the left sidebar. At the center of the screen, you’re prompted with “What do you want to build today?”—ensure the Apps tab is selected. Scroll down to choose <strong>Web</strong> as the application type and <strong>React</strong> as the framework.
+      </p>
+
+      <h3>Step 2: Enter Your Prompt</h3>
+      <p>
+        In the input box, describe the app you want to create. In this tutorial:
+        <code>
+          Create a modern, responsive personal portfolio website for a freelance architect.<br>
+          The site should include the following sections: Home, About Me, Projects, Skills, Contact...
+        </code>
+        Kavia will process your request and begin building the app, including frontend and backend code, UI layout, and app logic.
+      </p>
+
+      <h3>Step 3: Confirm Project Overview and Core features</h3>
+      <ul>
+        <li>
+          <strong>Third-Party Integrations:</strong> Connect your GitHub account by selecting it from the dropdown, or add it.
+        </li>
+        <li>
+          <strong>Database Integration:</strong> Connect Supabase; a popup will guide the authentication and project creation.
+        </li>
+      </ul>
+
+      <h3>Step 4: Let Kavia Prepare the Workspace</h3>
+      <p>
+        Click <strong>Start Implementation</strong> and wait for setup to complete.
+      </p>
+      <h3>Step 5: Collaborate with Kavia via Chat</h3>
+      <ul>
+        <li>Start by asking Kavia to create a plan.</li>
+        <li>To use an image or document, upload PDF/JPG/PNG using the "+" icon near chat.</li>
+      </ul>
+      <h3>Step 6: Preview</h3>
+      <p>Go to Preview to check the Live Application!</p>
+      <h3>Step 7: Enabling the Edit Mode</h3>
+      <p>
+        Allows precise design and functionality adjustments in the preview. Remember to save changes, then click <strong>Disable Edit Mode</strong> once done.
+      </p>
+      <h3>Step 8: Deployment</h3>
+      <p>
+        Click the + button next to <b>Deploy</b>, select your container, configure settings, and <b>Create Frontend Deployment</b>.
+        Kavia will deploy your app.
+      </p>
+      <h3>Step 9: Terminate</h3>
+      <ul>
+        <li><strong>Save and Exit</strong> – if your code is ready</li>
+        <li><strong>Discard and Exit</strong> – if the session did not achieve your expectations</li>
+        <li><strong>Continue session</strong> – to resume work later</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Ingest Existing Codebase</h2>
+      <ul>
+        <li>
+          Go to <b>Project List</b> &rarr; Click <b>Import</b>
+        </li>
+        <li>
+          Provide Project Name and Description, choose Github repo, and select <b>Query</b> (to understand your code) or <b>Modify</b>.
+        </li>
+      </ul>
+
+      <h3>1. Basic Querying</h3>
+      <ul>
+        <li>Select Repositories → Query → Basic Query</li>
+        <li>Select Model (Clause 3.5 for Architecture; GPT 4.1 for cost efficiency)</li>
+        <li>Prompt about code → visualize response → export or save</li>
+      </ul>
+      <h3>2. Advanced Query</h3>
+      <ul>
+        <li>Choose Deep Analysis, wait for setup, then provide document prompt</li>
+      </ul>
+      <h3>3. Code Maintenance</h3>
+      <ul>
+        <li>Select repositories → Start session</li>
+        <li>Give instructions via prompt</li>
+        <li>Preview (if supported), or create PR and test locally</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Notable Points</h2>
+      <ol>
+        <li>Session automatically ends after 30 minutes of inactivity—terminate session to save code.</li>
+        <li>GPT 4.1 is default, cheap and best for code generation.</li>
+        <li>Best results: Use Web app + Supabase Integration for real-time apps.</li>
+      </ol>
+    </section>
+  </div>
+</body>
+</html>
